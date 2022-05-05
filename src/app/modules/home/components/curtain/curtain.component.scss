@@ -1,0 +1,42 @@
+.curtain {
+    width: 97%;
+    height: 97%;
+
+    background-color: var(--complementary-color);
+    border-bottom-left-radius: var(--curtain-border-radius);
+    border-bottom-right-radius: var(--curtain-border-radius);
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    &__palette-icon {
+        width: 8.125em;
+        height: 16.875em;
+    }
+
+    &__circle-button-up {
+        width: 3.75em;
+        height: 3.75em;
+    }
+
+    &__icon-container {
+        cursor: pointer;
+
+        position: absolute;
+        bottom: 0;
+
+        transform: translateY(-30%);
+    }
+}
+
+@media (max-width: 576px) {
+    .curtain {
+        width: 100%;     
+        margin: 0;
+    }
+}
