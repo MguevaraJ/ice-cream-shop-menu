@@ -34,7 +34,7 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: var(--small)) {
     .curtain {
         width: 100%;     
         margin: 0;

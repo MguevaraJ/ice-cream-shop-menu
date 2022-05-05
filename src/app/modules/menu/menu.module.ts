@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { MenuComponent } from './components/menu/menu.component';
 import { MenuRoutingModule } from "./menu-routing.module";
+import { MaterialModule } from "../material/material.module";
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { MenuRoutingModule } from "./menu-routing.module";
   ],
   imports: [
     CommonModule,
-    MenuRoutingModule
+    MenuRoutingModule,
+    MaterialModule
   ]
 })
 export class MenuModule { }

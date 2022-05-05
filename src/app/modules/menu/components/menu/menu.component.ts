@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
+  public iceCreams: string[] = ['Fantasy Scoop', 'Honey Date', 'Cone N smile'];
+
   constructor() { }
 
   ngOnInit(): void {
