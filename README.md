@@ -11,7 +11,7 @@ It is an application that shows the menu with all the products (in this case ice
 We are located in the directory where we want to locate the project and clone the repository in this way:
 
 ```
-$ git clone https://github.com/MguevaraJ/lister-fetch.git
+$ git clone https://github.com/MguevaraJ/ice-cream-shop-menu.git
 ```
 
 ------------
