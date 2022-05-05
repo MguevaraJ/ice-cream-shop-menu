@@ -13,6 +13,12 @@
     --space-3: var(--spacer);
     --space-4: calc(var(--spacer) * 1.5);
     --space-5: calc(var(--spacer) * 3);
+
+    --small: 576px;
+    --medium: 768px;
+    --large: 992px;
+    --extra-large: 1200px;
+    --extra-extra-large: 1400px;
 }
 
 html, body { height: 100%; }

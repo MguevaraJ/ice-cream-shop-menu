@@ -1,27 +1,33 @@
-# IceCreamMenu
+# 🍨 Ice Cream Shop Menu
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+![1](https://user-images.githubusercontent.com/46603674/166864958-bedab7cc-e06f-499c-895e-0205c7eb583a.png)
+------------
+It is an application that shows the menu with all the products (in this case ice cream), and allows you to select them along with specifications. And finally exposes it so they can be groomed.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+#### 1. Clone the repository
 
-## Code scaffolding
+We are located in the directory where we want to locate the project and clone the repository in this way:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+$ git clone https://github.com/MguevaraJ/lister-fetch.git
+```
 
-## Build
+------------
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#### 2. Run the project
 
-## Running unit tests
+For now the project is still under development, so if you want to contribute you can run it like this:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+$ ng serve --open
+```
 
-## Running end-to-end tests
+## Authors
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **Moises Alejandro Guevara Jauregui** - [MguevaraJ](https://github.com/MguevaraJ)
 
-## Further help
+## License
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project is under license **GPL-3.0** - See the file [LICENSE](https://github.com/MguevaraJ/sender-mail-application/blob/master/LICENSE) for more details.
