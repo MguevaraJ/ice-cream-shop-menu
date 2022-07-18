@@ -4,7 +4,10 @@
     --primary-color: #FFFFFF;
     --secondary-color: #ECF0F1;
     --complementary-color: #FFCCCC;
+    --opaque-complementary-color: rgba(255,204,204, 0.5);
     --text-color: #747D8C;
+    --focused-text-color: #bf5f82;
+    --background-primary-color: #F2F2F2;
 
     --curtain-border-radius: 3.125em;
 
@@ -20,6 +23,8 @@
     --large: 992px;
     --extra-large: 1200px;
     --extra-extra-large: 1400px;
+
+    --animation-duration-1: 0.25s;
 }
 
 html, body { 
@@ -31,10 +36,18 @@ body {
 }
 
 .curtain-top {
-    width: 100%;
+    width: 95%;
     height: 3.125em;
     border-bottom-left-radius: var(--curtain-border-radius);
     border-bottom-right-radius: var(--curtain-border-radius);
     background-color: var(--complementary-color);
-    margin-bottom: var(--space-4);
+
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    &__spacer {
+        padding-top: var(--space-5);
+    }
 }

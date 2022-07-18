@@ -1,23 +1,5 @@
-<div class="menu">
+<div class="content">
     <div class="curtain-top"></div>
-    <div class="menu__container">
-        <h1 class="menu__title">
-            Hi client <br>
-            Choose an ice cream
-        </h1>
-        <form class="menu__search-form">
-            <mat-form-field class="menu__search-field" appearance="fill" color="accent">
-                <mat-label class="menu__search-label">
-                    <mat-icon class="menu__search-icon">search</mat-icon>
-                    Search
-                </mat-label>
-                <input class="menu__search-input" color="accent" type="text" matInput [matAutocomplete]="auto">
-                <mat-autocomplete #auto="matAutocomplete">
-                    <mat-option *ngFor="let iceCream of iceCreams" [value]="iceCream">
-                        {{ iceCream }}
-                    </mat-option>
-                </mat-autocomplete>
-            </mat-form-field>
-        </form>
-    </div>
+    <app-bar></app-bar>
+    <div class="items"></div>
 </div>

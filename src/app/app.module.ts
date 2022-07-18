@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { SharedModule } from "./shared/shared.module";
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { HomeModule } from './modules/home/home.module';
 import { MenuModule } from './modules/menu/menu.module';
@@ -12,11 +12,10 @@ import { MenuModule } from './modules/menu/menu.module';
     AppComponent,
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
     HomeModule,
-    MenuModule
+    MenuModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
