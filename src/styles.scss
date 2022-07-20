@@ -6,10 +6,13 @@
     --complementary-color: #FFCCCC;
     --opaque-complementary-color: rgba(255,204,204, 0.5);
     --text-color: #747D8C;
+    --opaque-text-color: #A4B0BE;
     --focused-text-color: #bf5f82;
     --background-primary-color: #F2F2F2;
 
     --curtain-border-radius: 3.125em;
+
+    --border-1: 0.2rem;
 
     --spacer: 1rem;
     --space-1: calc(var(--spacer) * .25);
